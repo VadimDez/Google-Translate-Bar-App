@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C0A2C41E0D62AC00ABD307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2C31E0D62AC00ABD307 /* AppDelegate.swift */; };
+		12C0A2C61E0D62AC00ABD307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C0A2C51E0D62AC00ABD307 /* Assets.xcassets */; };
+		12C0A2C91E0D62AC00ABD307 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C0A2C71E0D62AC00ABD307 /* MainMenu.xib */; };
+		12C0A2D41E0D62AD00ABD307 /* GoogleTranslateBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2D31E0D62AD00ABD307 /* GoogleTranslateBarTests.swift */; };
+		12C0A2DF1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2DE1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12C0A2D01E0D62AD00ABD307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C0A2B81E0D62AC00ABD307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C0A2BF1E0D62AC00ABD307;
+			remoteInfo = GoogleTranslateBar;
+		};
+		12C0A2DB1E0D62AD00ABD307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C0A2B81E0D62AC00ABD307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C0A2BF1E0D62AC00ABD307;
+			remoteInfo = GoogleTranslateBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C0A2C01E0D62AC00ABD307 /* GoogleTranslateBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTranslateBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C0A2C31E0D62AC00ABD307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12C0A2C51E0D62AC00ABD307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C0A2C81E0D62AC00ABD307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		12C0A2CA1E0D62AD00ABD307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C0A2CF1E0D62AD00ABD307 /* GoogleTranslateBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleTranslateBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C0A2D31E0D62AD00ABD307 /* GoogleTranslateBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslateBarTests.swift; sourceTree = "<group>"; };
+		12C0A2D51E0D62AD00ABD307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C0A2DA1E0D62AD00ABD307 /* GoogleTranslateBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleTranslateBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C0A2DE1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslateBarUITests.swift; sourceTree = "<group>"; };
+		12C0A2E01E0D62AD00ABD307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C0A2BD1E0D62AC00ABD307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C0A2CC1E0D62AD00ABD307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C0A2D71E0D62AD00ABD307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C0A2B71E0D62AC00ABD307 = {
+			isa = PBXGroup;
+			children = (
+				12C0A2C21E0D62AC00ABD307 /* GoogleTranslateBar */,
+				12C0A2D21E0D62AD00ABD307 /* GoogleTranslateBarTests */,
+				12C0A2DD1E0D62AD00ABD307 /* GoogleTranslateBarUITests */,
+				12C0A2C11E0D62AC00ABD307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12C0A2C11E0D62AC00ABD307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C0A2C01E0D62AC00ABD307 /* GoogleTranslateBar.app */,
+				12C0A2CF1E0D62AD00ABD307 /* GoogleTranslateBarTests.xctest */,
+				12C0A2DA1E0D62AD00ABD307 /* GoogleTranslateBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C0A2C21E0D62AC00ABD307 /* GoogleTranslateBar */ = {
+			isa = PBXGroup;
+			children = (
+				12C0A2C31E0D62AC00ABD307 /* AppDelegate.swift */,
+				12C0A2C51E0D62AC00ABD307 /* Assets.xcassets */,
+				12C0A2C71E0D62AC00ABD307 /* MainMenu.xib */,
+				12C0A2CA1E0D62AD00ABD307 /* Info.plist */,
+			);
+			path = GoogleTranslateBar;
+			sourceTree = "<group>";
+		};
+		12C0A2D21E0D62AD00ABD307 /* GoogleTranslateBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				12C0A2D31E0D62AD00ABD307 /* GoogleTranslateBarTests.swift */,
+				12C0A2D51E0D62AD00ABD307 /* Info.plist */,
+			);
+			path = GoogleTranslateBarTests;
+			sourceTree = "<group>";
+		};
+		12C0A2DD1E0D62AD00ABD307 /* GoogleTranslateBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12C0A2DE1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift */,
+				12C0A2E01E0D62AD00ABD307 /* Info.plist */,
+			);
+			path = GoogleTranslateBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C0A2BF1E0D62AC00ABD307 /* GoogleTranslateBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C0A2E31E0D62AD00ABD307 /* Build configuration list for PBXNativeTarget "GoogleTranslateBar" */;
+			buildPhases = (
+				12C0A2BC1E0D62AC00ABD307 /* Sources */,
+				12C0A2BD1E0D62AC00ABD307 /* Frameworks */,
+				12C0A2BE1E0D62AC00ABD307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleTranslateBar;
+			productName = GoogleTranslateBar;
+			productReference = 12C0A2C01E0D62AC00ABD307 /* GoogleTranslateBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12C0A2CE1E0D62AD00ABD307 /* GoogleTranslateBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C0A2E61E0D62AD00ABD307 /* Build configuration list for PBXNativeTarget "GoogleTranslateBarTests" */;
+			buildPhases = (
+				12C0A2CB1E0D62AD00ABD307 /* Sources */,
+				12C0A2CC1E0D62AD00ABD307 /* Frameworks */,
+				12C0A2CD1E0D62AD00ABD307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C0A2D11E0D62AD00ABD307 /* PBXTargetDependency */,
+			);
+			name = GoogleTranslateBarTests;
+			productName = GoogleTranslateBarTests;
+			productReference = 12C0A2CF1E0D62AD00ABD307 /* GoogleTranslateBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12C0A2D91E0D62AD00ABD307 /* GoogleTranslateBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C0A2E91E0D62AD00ABD307 /* Build configuration list for PBXNativeTarget "GoogleTranslateBarUITests" */;
+			buildPhases = (
+				12C0A2D61E0D62AD00ABD307 /* Sources */,
+				12C0A2D71E0D62AD00ABD307 /* Frameworks */,
+				12C0A2D81E0D62AD00ABD307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C0A2DC1E0D62AD00ABD307 /* PBXTargetDependency */,
+			);
+			name = GoogleTranslateBarUITests;
+			productName = GoogleTranslateBarUITests;
+			productReference = 12C0A2DA1E0D62AD00ABD307 /* GoogleTranslateBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C0A2B81E0D62AC00ABD307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Vadim Dez";
+				TargetAttributes = {
+					12C0A2BF1E0D62AC00ABD307 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X2Y38H8PPB;
+						ProvisioningStyle = Automatic;
+					};
+					12C0A2CE1E0D62AD00ABD307 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X2Y38H8PPB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12C0A2BF1E0D62AC00ABD307;
+					};
+					12C0A2D91E0D62AD00ABD307 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X2Y38H8PPB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12C0A2BF1E0D62AC00ABD307;
+					};
+				};
+			};
+			buildConfigurationList = 12C0A2BB1E0D62AC00ABD307 /* Build configuration list for PBXProject "GoogleTranslateBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C0A2B71E0D62AC00ABD307;
+			productRefGroup = 12C0A2C11E0D62AC00ABD307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C0A2BF1E0D62AC00ABD307 /* GoogleTranslateBar */,
+				12C0A2CE1E0D62AD00ABD307 /* GoogleTranslateBarTests */,
+				12C0A2D91E0D62AD00ABD307 /* GoogleTranslateBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C0A2BE1E0D62AC00ABD307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C0A2C61E0D62AC00ABD307 /* Assets.xcassets in Resources */,
+				12C0A2C91E0D62AC00ABD307 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C0A2CD1E0D62AD00ABD307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C0A2D81E0D62AD00ABD307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C0A2BC1E0D62AC00ABD307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C0A2C41E0D62AC00ABD307 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C0A2CB1E0D62AD00ABD307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C0A2D41E0D62AD00ABD307 /* GoogleTranslateBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C0A2D61E0D62AD00ABD307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C0A2DF1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12C0A2D11E0D62AD00ABD307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C0A2BF1E0D62AC00ABD307 /* GoogleTranslateBar */;
+			targetProxy = 12C0A2D01E0D62AD00ABD307 /* PBXContainerItemProxy */;
+		};
+		12C0A2DC1E0D62AD00ABD307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C0A2BF1E0D62AC00ABD307 /* GoogleTranslateBar */;
+			targetProxy = 12C0A2DB1E0D62AD00ABD307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12C0A2C71E0D62AC00ABD307 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C0A2C81E0D62AC00ABD307 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C0A2E11E0D62AD00ABD307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12C0A2E21E0D62AD00ABD307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		12C0A2E41E0D62AD00ABD307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X2Y38H8PPB;
+				INFOPLIST_FILE = GoogleTranslateBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadimdez.GoogleTranslateBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12C0A2E51E0D62AD00ABD307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X2Y38H8PPB;
+				INFOPLIST_FILE = GoogleTranslateBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadimdez.GoogleTranslateBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		12C0A2E71E0D62AD00ABD307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X2Y38H8PPB;
+				INFOPLIST_FILE = GoogleTranslateBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadimdez.GoogleTranslateBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleTranslateBar.app/Contents/MacOS/GoogleTranslateBar";
+			};
+			name = Debug;
+		};
+		12C0A2E81E0D62AD00ABD307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X2Y38H8PPB;
+				INFOPLIST_FILE = GoogleTranslateBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadimdez.GoogleTranslateBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleTranslateBar.app/Contents/MacOS/GoogleTranslateBar";
+			};
+			name = Release;
+		};
+		12C0A2EA1E0D62AD00ABD307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X2Y38H8PPB;
+				INFOPLIST_FILE = GoogleTranslateBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadimdez.GoogleTranslateBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleTranslateBar;
+			};
+			name = Debug;
+		};
+		12C0A2EB1E0D62AD00ABD307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X2Y38H8PPB;
+				INFOPLIST_FILE = GoogleTranslateBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vadimdez.GoogleTranslateBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleTranslateBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C0A2BB1E0D62AC00ABD307 /* Build configuration list for PBXProject "GoogleTranslateBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C0A2E11E0D62AD00ABD307 /* Debug */,
+				12C0A2E21E0D62AD00ABD307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C0A2E31E0D62AD00ABD307 /* Build configuration list for PBXNativeTarget "GoogleTranslateBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C0A2E41E0D62AD00ABD307 /* Debug */,
+				12C0A2E51E0D62AD00ABD307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12C0A2E61E0D62AD00ABD307 /* Build configuration list for PBXNativeTarget "GoogleTranslateBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C0A2E71E0D62AD00ABD307 /* Debug */,
+				12C0A2E81E0D62AD00ABD307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12C0A2E91E0D62AD00ABD307 /* Build configuration list for PBXNativeTarget "GoogleTranslateBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C0A2EA1E0D62AD00ABD307 /* Debug */,
+				12C0A2EB1E0D62AD00ABD307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C0A2B81E0D62AC00ABD307 /* Project object */;
+}
