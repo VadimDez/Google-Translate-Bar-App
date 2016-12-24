@@ -12,6 +12,8 @@
 		12C0A2C91E0D62AC00ABD307 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C0A2C71E0D62AC00ABD307 /* MainMenu.xib */; };
 		12C0A2D41E0D62AD00ABD307 /* GoogleTranslateBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2D31E0D62AD00ABD307 /* GoogleTranslateBarTests.swift */; };
 		12C0A2DF1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2DE1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift */; };
+		12C0A2EE1E0DFA7F00ABD307 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2EC1E0DFA7F00ABD307 /* MainViewController.swift */; };
+		12C0A2EF1E0DFA7F00ABD307 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C0A2ED1E0DFA7F00ABD307 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		12C0A2DA1E0D62AD00ABD307 /* GoogleTranslateBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleTranslateBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C0A2DE1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTranslateBarUITests.swift; sourceTree = "<group>"; };
 		12C0A2E01E0D62AD00ABD307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C0A2EC1E0DFA7F00ABD307 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12C0A2ED1E0DFA7F00ABD307 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				12C0A2C51E0D62AC00ABD307 /* Assets.xcassets */,
 				12C0A2C71E0D62AC00ABD307 /* MainMenu.xib */,
 				12C0A2CA1E0D62AD00ABD307 /* Info.plist */,
+				12C0A2EC1E0DFA7F00ABD307 /* MainViewController.swift */,
+				12C0A2ED1E0DFA7F00ABD307 /* MainViewController.xib */,
 			);
 			path = GoogleTranslateBar;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12C0A2C61E0D62AC00ABD307 /* Assets.xcassets in Resources */,
+				12C0A2EF1E0DFA7F00ABD307 /* MainViewController.xib in Resources */,
 				12C0A2C91E0D62AC00ABD307 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12C0A2C41E0D62AC00ABD307 /* AppDelegate.swift in Sources */,
+				12C0A2EE1E0DFA7F00ABD307 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
