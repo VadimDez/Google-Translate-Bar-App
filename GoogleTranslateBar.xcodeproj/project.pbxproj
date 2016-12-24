@@ -14,6 +14,7 @@
 		12C0A2DF1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2DE1E0D62AD00ABD307 /* GoogleTranslateBarUITests.swift */; };
 		12C0A2EE1E0DFA7F00ABD307 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2EC1E0DFA7F00ABD307 /* MainViewController.swift */; };
 		12C0A2EF1E0DFA7F00ABD307 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C0A2ED1E0DFA7F00ABD307 /* MainViewController.xib */; };
+		12C0A2F11E0E021B00ABD307 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0A2F01E0E021B00ABD307 /* Languages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		12C0A2E01E0D62AD00ABD307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12C0A2EC1E0DFA7F00ABD307 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		12C0A2ED1E0DFA7F00ABD307 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		12C0A2F01E0E021B00ABD307 /* Languages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				12C0A2CA1E0D62AD00ABD307 /* Info.plist */,
 				12C0A2EC1E0DFA7F00ABD307 /* MainViewController.swift */,
 				12C0A2ED1E0DFA7F00ABD307 /* MainViewController.xib */,
+				12C0A2F01E0E021B00ABD307 /* Languages.swift */,
 			);
 			path = GoogleTranslateBar;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				12C0A2C41E0D62AC00ABD307 /* AppDelegate.swift in Sources */,
 				12C0A2EE1E0DFA7F00ABD307 /* MainViewController.swift in Sources */,
+				12C0A2F11E0E021B00ABD307 /* Languages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
