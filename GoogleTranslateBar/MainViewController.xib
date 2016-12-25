@@ -8,9 +8,9 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MainViewController" customModule="GoogleTranslateBar" customModuleProvider="target">
             <connections>
-                <outlet property="languagesFrom" destination="sgT-0s-nZu" id="OhB-ad-Oij"/>
-                <outlet property="languagesTo" destination="FsP-5B-6Ew" id="lhN-U7-8JX"/>
                 <outlet property="progressLabel" destination="0zD-Zy-VH8" id="pFE-d3-o17"/>
+                <outlet property="sourceLanguages" destination="sgT-0s-nZu" id="Xp3-VA-zhB"/>
+                <outlet property="targetLanguages" destination="FsP-5B-6Ew" id="dcp-yG-fcx"/>
                 <outlet property="textFieldToTranslate" destination="44f-0w-5Wb" id="TYw-k5-Laz"/>
                 <outlet property="translateButton" destination="78H-Ku-FsX" id="7wL-58-a6m"/>
                 <outlet property="translatedTextField" destination="TNR-sF-Aq0" id="3KF-kJ-elu"/>

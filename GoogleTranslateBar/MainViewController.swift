@@ -10,8 +10,8 @@ import Cocoa
 
 class MainViewController: NSViewController {
 
-    @IBOutlet weak var languagesFrom: NSPopUpButton!
-    @IBOutlet weak var languagesTo: NSPopUpButton!
+    @IBOutlet weak var sourceLanguages: NSPopUpButton!
+    @IBOutlet weak var targetLanguages: NSPopUpButton!
     @IBOutlet weak var translateButton: NSButton!
     @IBOutlet weak var textFieldToTranslate: NSTextField!
     @IBOutlet weak var progressLabel: NSTextField!
@@ -26,16 +26,16 @@ class MainViewController: NSViewController {
     }
     
     func setLanguages() -> Void {
-        self.languagesFrom.removeAllItems()
-        self.languagesTo.removeAllItems()
+        self.sourceLanguages.removeAllItems()
+        self.targetLanguages.removeAllItems()
         
         languages.forEach { (name, value) in
-            self.languagesFrom.addItem(withTitle: name)
-            self.languagesTo.addItem(withTitle: name)
+            self.sourceLanguages.addItem(withTitle: name)
+            self.targetLanguages.addItem(withTitle: name)
         }
         
-        self.languagesFrom.select(self.languagesFrom.item(at: 1))
-        self.languagesTo.select(self.languagesTo.item(at: 0))
+        self.sourceLanguages.select(self.sourceLanguages.item(at: 1))
+        self.targetLanguages.select(self.targetLanguages.item(at: 0))
     }
     
     @IBAction func onTranslate(_ sender: Any) {
